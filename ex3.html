@@ -21,9 +21,9 @@
     }
     .esquerda
     {
-        width:33%;
-        height: 100%;
-        background-color: aquamarine;
+        width: 200px;
+        height: 830px;
+        background-color: yellow;
         display: flex;
         align-content: center;
         align-items: center;
@@ -32,22 +32,52 @@
     }
     .direita
     {
-        width: 66%;
+        width: 50%;
         height: 100%;
-        background-color: blueviolet;
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         align-content: center;
         align-items: center;
         justify-content: center;
         justify-items: center;
+        
+    }
+    .retangulo
+    {
+        height: 230px;
+        width: 520px;
+        background-color: yellow;
+    }
+    .invi
+    {
+        height: 600px;
+        width: 520px;
+        display: flex;
+        flex-direction: row;
+        align-content: center;
+        align-items: center;
+        justify-content: space-between;
+        justify-items: center;
+    }
+    .retangu
+    {
+        height: 550px;
+        width: 200px;
+        background-color: yellow;
     }
     </style>
 </head>
 <body>
     <div class="azul">
-        <div class="esquerda"></div>
-        <div class="direita"></div>
+        <div class="esquerda">
+        </div>
+        <div class="direita">
+            <div class="retangulo"></div>
+            <div class="invi">
+                <div class="retangu"></div>
+                <div class="retangu"></div>
+            </div>
+        </div>
     </div>
 
 </body>
